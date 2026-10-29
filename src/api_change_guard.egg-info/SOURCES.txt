@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+examples/base.json
+examples/breaking.json
+examples/compatible.json
+scripts/install_oasdiff.py
+src/api_change_guard/__init__.py
+src/api_change_guard/cli.py
+src/api_change_guard.egg-info/PKG-INFO
+src/api_change_guard.egg-info/SOURCES.txt
+src/api_change_guard.egg-info/dependency_links.txt
+src/api_change_guard.egg-info/entry_points.txt
+src/api_change_guard.egg-info/requires.txt
+src/api_change_guard.egg-info/top_level.txt
+tests/test_cli.py

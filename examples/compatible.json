@@ -1,0 +1,28 @@
+{
+  "openapi": "3.0.3",
+  "info": {"title": "Customer API", "version": "1.1.0"},
+  "paths": {
+    "/customers": {
+      "get": {
+        "operationId": "getCustomer",
+        "responses": {
+          "200": {
+            "description": "A customer",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": ["customer_id"],
+                  "properties": {
+                    "customer_id": {"type": "string"},
+                    "display_name": {"type": "string"}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

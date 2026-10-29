@@ -1,0 +1,3 @@
+recursive-include examples *.json
+include scripts/install_oasdiff.py
+include README.zh-TW.md

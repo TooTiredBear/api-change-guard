@@ -1,0 +1,2 @@
+[console_scripts]
+api-change-guard = api_change_guard.cli:main
